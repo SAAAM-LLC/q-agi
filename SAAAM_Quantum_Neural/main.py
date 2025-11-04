@@ -18,9 +18,9 @@ except ImportError:
     print("Note: QuantumIntelligencePartner not available, running in tokenizer-only mode")
 
 # File paths
-MODEL_PATH = "/home/michael/OFFICIAL_SAM-usethisone/SAAAM_Quantum_Neural/model_weights/consolidated.00.pth"
+MODEL_PATH = "/home/michael/Documents/GitHub/q-agi/SAAAM_Quantum_Neural/model_weights/consolidated.00.pth"
 PARAMS_PATH = "/home/michael/OFFICIAL_SAM-usethisone/SAAAM_Quantum_Neural/model_weights/params.json"
-TOKENIZER_PATH = "/home/michael/OFFICIAL_SAM-usethisone/SAAAM_Quantum_Neural/tokenizer/tokenizer.model"
+TOKENIZER_PATH = "/home/michael/Documents/GitHub/q-agi/SAAAM_Quantum_Neural/model_weights/tokenizer.model"
 
 def main():
     print("\n===== SAAAM Quantum Tokenization System =====")
